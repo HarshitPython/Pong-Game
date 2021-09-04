@@ -40,10 +40,10 @@ while game_is_on:
     if Ball.distance(l_paddle) < 50 and Ball.xcor() < -320:
         Ball.bounce_x_l_paddle()
 
-#     #Detect R paddle misses'''
-#     if Ball.xcor() > 380:
-#         Ball.reset()
-#         score.l_point()
+    #Detect R paddle misses'''
+    if Ball.xcor() > 380:
+        Ball.reset()
+        score.l_point()
 
 #     #Detect L paddle misses'''
 #     if Ball.xcor() < -380:
