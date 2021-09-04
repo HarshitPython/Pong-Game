@@ -45,10 +45,10 @@ while game_is_on:
         Ball.reset()
         score.l_point()
 
-#     #Detect L paddle misses'''
-#     if Ball.xcor() < -380:
-#         Ball.reset()
-#         score.r_point()
+    #Detect L paddle misses'''
+    if Ball.xcor() < -380:
+        Ball.reset()
+        score.r_point()
 
 
 
