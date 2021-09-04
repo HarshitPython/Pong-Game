@@ -22,11 +22,11 @@ screen.onkeypress(l_paddle.go_up,"w")
 screen.onkeypress(l_paddle.go_down,"s")
 
 
-# game_is_on = True
-# while game_is_on:
-#     time.sleep(0.01)
-#     screen.update()
-#     Ball.move()
+game_is_on = True
+while game_is_on:
+    time.sleep(0.01)
+    screen.update()
+    Ball.move()
 
 #     #Detect collision with the wall'''
 #     if Ball.ycor() > 280 or Ball.ycor() < -280:
