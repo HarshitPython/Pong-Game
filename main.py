@@ -1,8 +1,8 @@
-# from turtle import Turtle,Screen
-# from paddle import Paddle
-# from Ball import Ball
-# from score import Score
-# import time
+from turtle import Turtle,Screen
+from paddle import Paddle
+from Ball import Ball
+from score import Score
+import time
 
 # screen = Screen()
 # screen.setup(width=800, height=600)
