@@ -24,9 +24,9 @@ class Ball(Turtle):
         self.x_move = (abs(self.x_move))
         self.move_speed *= 0.9
  
-#     def bounce_x_r_paddle(self):
-#         self.x_move = -(abs(self.x_move))
-#         self.move_speed *= 0.9
+    def bounce_x_r_paddle(self):
+        self.x_move = -(abs(self.x_move))
+        self.move_speed *= 0.9
 
 #     def reset(self):
 #         self.goto(00,00)
