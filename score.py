@@ -23,4 +23,4 @@ from turtle import Turtle
 
     def r_point(self):
         self.r_score += 1
-#         self.update() 
+        self.update() 
