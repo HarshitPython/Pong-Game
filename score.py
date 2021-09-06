@@ -10,7 +10,7 @@ class Score(Turtle):
         self.r_score = 0
         self.update()
 
-#     def update(self):
+    def update(self):
 #         self.clear()
 #         self.goto(-100,200)
 #         self.write(self.l_score, align = "center", font=("Courier", 80, "normal"))
